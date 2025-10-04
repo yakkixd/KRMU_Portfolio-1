@@ -8,7 +8,6 @@ It showcases my introduction, about section, projects, technical skills, and a c
 ## 📌 Features
 
 - **Semantic HTML structure** with `<header>`, `<main>`, `<section>`, and `<footer>`.
-- **Skip to content** link for accessibility.
 - **Navigation bar** with links to About, Projects, Skills, and Contact sections.
 - **Hero section** with a title and introduction.
 - **About Me** section with a profile image and bio.
