@@ -13,17 +13,6 @@ It showcases my introduction, about section, projects, technical skills, and a c
 - **About Me** section with a profile image and bio.
 - **Projects section** listing sample projects.
 - **Skills section** using a table to show proficiency levels.
-- **Contact form** with Name, Email, and Message fields (all required).
-- **Responsive-friendly** and ready for future CSS styling.
+- **Contact form** with Name, Email, and Message fields.
 
 ---
-
-## 🛠️ Technologies Used
-
-- **HTML5** – for structure and content  
-- **Basic CSS (inline in `<style>`)** – for form layout  
-
----
-
-## 📂 Project Structure
-
