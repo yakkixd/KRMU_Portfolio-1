@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yaksh Kundu Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <div class="logo">My Portfolio</div>
+    <nav class="main-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="intro">Hi, I am</p>
+          <h1>Yaksh Kundu</h1>
+          <h2 class="role">Full Stack Developer</h2>
+          <p class="subtitle">
+            I build modern, responsive web applications with clean UI and
+            maintainable code.
+          </p>
+          <a href="#projects" class="btn primary-btn">View Projects</a>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <img
+            src="imagee.jpg"
+            alt="Photo"
+            class="hero-photo"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <h2>About Me</h2>
+      <p>
+        I am a web development student who enjoys creating interactive and
+        responsive websites. I love learning new technologies and turning ideas
+        into real, working projects. My focus is on writing clean code and
+        designing user-friendly interfaces.
+      </p>
+    </section>
+
+    <section id="skills" class="section skills">
+      <h2>My Skills</h2>
+      <div class="skills-row">
+        <div class="skill-card">
+          <span class="skill-title">HTML</span>
+          <span class="skill-level">Beginner</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-title">CSS</span>
+          <span class="skill-level">Beginner</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-title">JavaScript</span>
+          <span class="skill-level">Learning</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-title">C++</span>
+          <span class="skill-level">Beginner</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Project 1</h3>
+          <p>
+            A one-page portfolio website built with HTML, CSS Flexbox, and
+            Grid. Fully responsive and mobile-first.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <h3>Project 2</h3>
+          <p>
+            A simple blog layout inspired by Medium, focused on clean typography
+            and layout structure.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <h3>Project 3</h3>
+          <p>
+            A birthday greeting page with custom styling and subtle animations
+            to make it feel special.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Contact Me</h2>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" placeholder="Enter your name" required />
+
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="Enter your email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Write your message" required></textarea>
+
+        <button type="submit" class="btn secondary-btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p>© 2025 Yaksh Kundu l. All rights reserved.</p>
+    <a href="#home" class="btn back-to-top">Back to Top</a>
+  </footer>
+</body>
+</html>
